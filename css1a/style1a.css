@@ -1,0 +1,101 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box; 
+}
+
+:root {
+    font-size: 100%;
+    --font-principal:helvetica;
+    --cor-1:#212121;
+    --cor-red:red;
+    --cor-2:#f9a825;
+}  
+
+header#cabecalho {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+.logo  {
+    padding: 10px;
+    margin-left: 115px;
+    color:white;
+    font-family: var(--font-principal);
+}
+
+nav{
+    margin: -20px;
+    margin-left: 62%;
+    font-family: var(--font-principal);
+    color:white;
+}
+
+a {
+    padding: 30px;
+    /* margin-left: -20px; */
+    color: white;
+    text-decoration:none;
+    font-family: var(--font-principal);
+}
+
+.home {
+    background-color: var(--cor-2);
+    border-radius: 100%;
+    padding: 5px;
+    font-size: 20px;
+}
+
+p.pontilhado{
+    width: 30%;
+    height: 250px;
+    margin: 10%;
+    /* align-items: center;
+    justify-content: center; */
+    margin-left: 280px;
+    /* background-color: rgb(233, 233, 233); */
+    border-right: 2px dotted black;
+    margin-top:10%;
+}
+
+p.lore{
+    width: 30%;
+    margin-top: -25%;
+    margin-left: 20%;
+    margin-top: -22%;
+ 
+}
+
+label {
+    width: 30%;
+    /* margin-top: -25%; */
+    margin-left: 53%;
+    /* margin-top: -22%; */
+}
+
+input {
+    font-size: 20px;
+}
+
+div.box-direita {
+   
+    margin-top: -3%;
+}
+
+div.rodape {
+  
+    margin-top: 200px;
+    margin-left: 46%;
+}
+
+p.roda {
+    padding: 2%;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor-1);
+}
